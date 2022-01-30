@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Style Script', cursive;
+}
+
+header h1 {
+    font-size: 5vw;
+    margin: 1vw;
+}
+
+.ColourTypes div p {
+    font-size: 3vw;
+    margin: 1vw;
+}
+
+.ColourTypes div .Colour {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ColourTypes div .Colour div {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+}
+
+.ColourTypes div .Colour .Red {
+    background-color: #ff0000;
+}
+
+.ColourTypes div .Colour .Blue {
+    background-color: #0000ff;
+}
+
+.ColourTypes div .Colour .Yellow {
+    background-color: #ffff00;
+}
+
+.ColourTypes div .Colour .Purple {
+    background-color: #800080;
+}
+
+.ColourTypes div .Colour .Green {
+    background-color: #008000;
+}
+
+.ColourTypes div .Colour .Orange {
+    background-color: #ffa500;
+}
+
+.ColourWheel p {
+    font-size: 3vw;
+    margin: 1vw;
+}
+
+.ColourWheel img {
+    width: 25vw;
+    height: 25vw;
+    margin: auto;
+}
